@@ -76,12 +76,12 @@ Make sure you have the following installed:
    DATABASE_SCHEMA=travelwise
 
    # All API keys
-   SENDGRID_API_KEY=  # SendGrid API Key for Sending the Notification Mail
-   OPENAI_API_KEY=    # OpenAI API Key for ChatBot and Vision Feature
-   COUNTRY_API_KEY=   # Country API Key for Weather Feature
-   WEATHER_API_KEY=   # Weather API Key to Get the Weather Info
-   X_RAPID_API_KEY=   # X Rapid API Key for Weather Feature
-   YELP_API_KEY=      # Yelp API Key for Yelp search Feature
+   SENDGRID_API_KEY=  # To get SendGrid API Key for Mailing.Vist (https://login.sendgrid.com).
+   OPENAI_API_KEY=    # OpenAI API Key for ChatBot and Vision Feature.
+   COUNTRY_API_KEY=   # To get Country API Key for country info feature. Visit (https://countryapi.io/)
+   WEATHER_API_KEY=   # To get Weather API Key, Vist (https://openweathermap.org/api).
+   X_RAPID_API_KEY=   # To get XRapidAPI Key for Weather Feature,Vist (https://rapidapi.com/hub)
+   YELP_API_KEY=      # Yelp API Key for Yelp search Feature. Find yelp business api.
 
    # Secret key for the authentication password encryption, this is used in the initial database content.
    Secret_Key=c1b586dc616452c1ced1f6bb65af186c
