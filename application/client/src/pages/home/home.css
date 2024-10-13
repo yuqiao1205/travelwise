@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    /* background-color:rgb(235, 238, 241); */
+  }
+  .homePosts{
+    flex: 9;
+    /* padding: 20px; */
+    /* top: 66px; */
+    position: sticky !important;
+  }
+  .homeRightbar{
+    flex: 3;
+    padding: 3em;
+    margin-left: 2em;
+  }

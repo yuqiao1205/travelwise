@@ -1,0 +1,27 @@
+
+
+.search-input-container input[type='text'] {
+  width: 59%;
+  background-color: transparent;
+  transition: width 0.5s ease-in-out;
+  color: white;
+  position: sticky;
+  /* margin-bottom: 1em; */
+}
+
+.search-input-container input[type='text']:focus {
+  width: 50%; /* animated width */;
+}
+
+  /* select style*/
+.border{
+border: 1px solid white;
+margin-right: 0.2em;
+background-color: transparent;
+font-family: 'roboto', sans-serif;
+font-size: 1em;
+height: 1.82em;
+color: white;
+}
+
+

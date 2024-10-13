@@ -1,0 +1,31 @@
+.pagination-container {
+    margin-top: 1em;
+    justify-content: center; /* centers the pagination controls */
+    text-align: center; /* centers the pagination controls */
+  }
+
+  
+  .page-number, .pagination-control {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 2px solid #ddd;
+    background-color: #78c7e6;
+    cursor: pointer;
+  }
+  
+  .page-number.active {
+    background-color: #1a61ac;
+    color: white;
+  }
+  
+  .page-number:disabled, .pagination-control:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: default;
+    border-color: #ddd;
+  }
+  
+  .page-info {
+    margin: 0 10px;
+  }
+  

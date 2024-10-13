@@ -1,0 +1,48 @@
+.regiondropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .region-dropdown-btn {
+    background-color: rgb(12, 15, 18);
+    color: white;
+    padding-top: 1.5em;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  .region-dropdown-btn:hover {
+    color: yellow; /* Slightly lighter on hover */
+  }
+  
+  .region-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Light background for dropdown content */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow for dropdown */
+    z-index: 1;
+    font-family: 'roboto', sans-serif;
+
+    border-radius: 5px;
+  }
+  
+  .region-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .region-dropdown-content a:hover {
+    background-color: black; /* Grey background on hover */
+    color: white;
+  }
+  
+  .regiondropdown:hover .region-dropdown-content {
+    display: block; /* Show dropdown content on hover */
+  }
+ 
+  

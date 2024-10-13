@@ -1,0 +1,92 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../img/snowmoutain.jpg");
+  background-size: cover;
+
+}
+  
+
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eaecee; 
+    padding: 40px;
+    background-color:  rgb(244, 238, 238);
+    border-radius: 10px;
+    background-color: rgba(244, 238, 238, 0.5); 
+  }
+  
+  .loginForm > label {
+    margin: 15px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    /* border: none; */
+    border-radius: 10px;
+    border: 2px solid #eaecee;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #41c2d5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .loginButton:hover {
+    background-color: #69ccdb;
+  }
+  
+.registerlink{
+color: rgb(24, 47, 117);
+font-weight: 500;
+
+}
+
+.linktoreg{
+  color:rgb(196, 130, 7);
+ 
+
+}
+.linktoreg:hover{ 
+color: rgb(151, 117, 14);
+  /* text-decoration: underline; */
+}
+
+.linktohome{
+  color:rgb(17, 67, 167);
+}
+.linktohome:hover{ 
+color: rgb(22, 181, 209);
+  text-decoration: underline;
+}
+
+  /* error message*/
+  .errormessage {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+  }

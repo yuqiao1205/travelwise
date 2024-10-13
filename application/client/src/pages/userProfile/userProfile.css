@@ -1,0 +1,91 @@
+/* userProfile.css */
+.userprofile-container {
+    padding: 10px; /* Adds padding around the entire user profile for spacing */
+    width: 100vw;
+    height: 71vh;
+    /* background-image:  url('../../img/about.jpg'); */
+    background-image:  url('../../img/about6.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .userprofile-title {
+    text-align: center; /* Centers the title */
+    margin-bottom: 20px; 
+    margin-left:3em;
+    /* margin-right: %; */
+  }
+  
+.userprofile{
+    padding: 3%;
+}
+
+
+.userprofile p{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+  .profile-img-container{
+  margin-left: 10em;
+  }
+  /* Styles the column containing the image */
+  .profile-img{
+    width: 100%; /* Makes the image responsive */
+    max-width: 180px; 
+    height: 150px;
+    margin: 0 auto; /* Centers the image within its column */
+    display: block; /* Ensures margin auto works correctly */
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 7em;
+  }
+  
+
+  
+  /* Adjusts the layout of each Col component for alignment and spacing */
+  .col-sm {
+    align-items: left; 
+    justify-content: center; 
+    /* flex-direction: column;  */
+  }
+
+  .follower-option{
+    
+    margin-left: 3em;
+    margin-top: 2em;
+  }
+  .userprofile-info{
+  
+    margin-top: 2em;
+   
+  }
+ 
+  .profile-edit{
+    /* margin-top: 1.5em; */
+   
+    margin-left: 3em;
+    /* border: 1px solid black; */
+    float: center;
+    padding: 0.2em;
+    width: 15%;
+    background-color: rgb(43, 167, 205);
+    color:white;
+    border-radius: 5px;
+    border: none;
+    height: 2.5em;
+  }
+  .profile-edit:hover{
+    background-color: rgb(63, 168, 225);
+    color: white;
+  }
+ 
+
+ 
+  
+  @media (min-width: 576px) {
+    .col-sm {
+      justify-content: flex-start; /* Aligns items to the start on larger screens */
+    }
+  }
+  

@@ -1,0 +1,65 @@
+/* Style for the subscription form container */
+.subs-container {
+    padding: 42px;
+    text-align: center;
+    background-color: #204d95;
+    width: 100%;
+  
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+
+
+  .subs-subheading{
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    
+  }
+  
+  
+  /* Style for the input field */
+  .subs-input-field {
+    padding: 0.5em;
+    width: 22%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button */
+  .subscribe-button {
+    margin-left: 2em;
+    /* margin-right: 0em; */
+    padding: 0.5em;
+    background-color: #22273a;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  .subscribe-button:hover {
+    background-color: #22305b;
+  }
+
+  .unsubscribe-button{
+    /* padding: 10px 15px; */
+    background-color: #da4747;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    margin-left: 1em;
+   
+  }
+  .unsubscribe-button:hover {
+    background-color: #c30000;
+  }
+
+  .error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: 'roboto', sans-serif;
+  }

@@ -1,0 +1,3 @@
+tp2024 {
+    reverse_proxy localhost:3000
+}

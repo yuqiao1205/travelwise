@@ -1,0 +1,66 @@
+/* Style for the individual business result */
+.search-result {
+    display: flex;
+    max-width: 1135px;
+    width: 100%;
+  }
+  
+  /* Style for the business name */
+  .business-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the business image */
+  .business-image {
+    width: 210px;
+    height: 210px;
+    border-radius: 4px;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    /* aspect ratio should be maintained, so need to crop */
+    object-fit: cover;
+  }
+
+  .business-info {
+    min-width: 400px;
+  }
+
+  .contact-info p{
+    font-size: 0.85rem;
+  }
+  
+  /* Style for the phone number */
+  .business-phone {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the business rating */
+  .business-rating {
+    font-size: 1.2rem;
+    color: #ff6600; /* Yelp orange color */
+  }
+
+  .business-rating {
+    display: flex;
+    align-items: center;
+}
+
+.business-rating > * {
+    margin-right: 4px;
+}
+
+.business-rating p {
+    font-size: .85rem;
+}
+  
+  /* Style for the business location */
+  .business-location {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+
+  

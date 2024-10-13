@@ -1,0 +1,118 @@
+/* Base style for all comments */
+.comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Style for the info section of a comment */
+  .comment-info {
+    font-weight: bold;
+    /* margin-bottom: 5px;
+    padding: 20px;  */
+    border-radius: 5px;
+
+  }
+
+  .comment-desc{
+    
+    /* margin-bottom: 5px;
+    padding: 20px;  */
+    border-radius: 5px;
+    margin-left: 8px;
+    /* border: 1px solid #ddd; */
+  }
+  
+  /* Style for the date of the comment */
+  .comment-date {
+    font-size: 1em;
+    color: #666;
+    text-align: right;
+  }
+
+  .comment-username {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Style for the nested replies */
+  .nested-replies {
+    margin-top: 10px;
+  }
+  
+  /* Style for the input fields */
+  .comments input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(170, 170, 221);
+    box-sizing: border-box; /* To ensure padding doesn't increase the width */
+  }
+  
+  .replytext{
+    /* background-color: #d9e6df; */
+    color: rgb(214, 34, 112);
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 710px;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 13px;
+  }
+  .replytext:hover{
+    background-color: rgb(192, 163, 194);
+    border-radius: 20px;
+    color: white;
+  }
+
+  .replybutton{
+    background-color: #2aad67;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 20px;
+  }
+
+  .replybutton:hover,.cancelbutton:hover{
+    background-color: rgb(216, 73, 73);
+    color: white;
+    border-radius: 20px;
+  }
+
+
+  .replybutton:hover{
+    background-color: rgb(42, 120, 54);
+    color: white;
+    border-radius: 20px;
+  }
+
+  .cancelbutton {
+    /* Add your styling for the cancel button here */
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(203, 137, 137);
+    color: white;
+    /* Other styles as needed */
+  }
+  /* Style for buttons */
+  .comment-button {
+    background-color: #1956d8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .comment-button:hover {
+    background-color: #5999d8;
+  }
+  
+  /* Additional styling can be added here */
+  

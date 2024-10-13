@@ -1,0 +1,30 @@
+/* In your posts.css or a relevant CSS file */
+.search-results-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+    text-align: center;
+    margin-top: 1em; 
+    color: gray;
+  }
+  
+.posts1{
+  flex: 7;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 5em;
+  }
+
+  .search-results-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    height: 100vh;
+  }
+
+  

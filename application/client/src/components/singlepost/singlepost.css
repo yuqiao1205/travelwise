@@ -1,0 +1,155 @@
+ /* the singlepost page all content within Detail components*/
+ .content {
+    margin: 2.5em;
+  }
+  
+  .likeSection{
+    padding: 0px;
+    
+  }
+
+.postIcon{
+  display: flex;
+}
+
+.likeCount{
+  display: flex;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.likeIcon{
+  display: flex;
+  padding-top: 0.87em;
+
+} 
+
+.followerIcon{
+  text-align: right;
+  margin-top:1em;
+  font-family: 'roboto', sans-serif;
+ 
+}
+
+.favIcon{
+
+  margin-top: 0.75em;
+  padding-left: 0.6em;
+
+}
+
+.postImgContainer {
+    display: flex; 
+    justify-content: center;
+ 
+}
+
+  .postImg {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .postTitle {
+    text-align: left;
+    padding:2px;
+    padding-top: 0.5em;
+    font-size: 2em;
+    /* font-family: "Rubik", cursive; */
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+
+  }
+
+  .postdate{
+    padding: 2px;
+  }
+
+
+  .authorimg{
+    margin-left: 2em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+
+  .commentimg:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+  }
+
+
+  .delimg{
+    height: 40px;
+    width: 40px;
+    /* padding: 0px 5px; */
+    object-fit: cover;
+  }
+
+  .delimg:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+  }
+
+  .editimg{
+    height: 40px;
+    width: 48px;
+    padding-left: 1em;
+  }
+
+  .editimg:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+  }
+
+  .postInfo {
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #acb5b7;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+  } 
+  
+  .postAuthor{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .postDesc {
+    color: rgb(10, 8, 8);
+    font-size: 1.2em;
+    line-height: 27px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    width:800px;
+    height: inherit;
+ 
+  }
+  
+  .postDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+
+  }
+  
+  .postCommentText{
+
+   margin-bottom: 1em;
+   margin-top: 3em;
+    font-size: 20px;
+    font-weight: 500;
+    width: 800px;
+    font-family: 'roboto', sans-serif;
+  }
+
+
+  

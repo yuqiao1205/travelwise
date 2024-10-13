@@ -1,0 +1,72 @@
+/* Style for the container div */
+/* .infocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+  } */
+
+
+  .infocontainer {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(37, 172, 202, 0.9);
+
+    border-radius: 10px;
+  }
+
+  .infopage-heading{
+    margin: 1em;
+    padding: 15px;
+    width: 100%;
+    border-bottom: solid 1px #191212;
+    text-align: center;
+    font-family:  'roboto', sans-serif;
+    line-height: 15px;
+    color: gray;
+    font-weight: 500;
+    font-size: larger;
+  }
+  
+  /* Style for the select element */
+  .Select {
+    width: 350px; /* Adjust the width as needed */
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the country information section */
+  .country-info {
+    display:flex;
+    text-align: left;
+    padding:50px;
+  
+    /* padding-right: 60px; */
+    border: 1px solid #ccc;
+    /* border-radius: 10px; */
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Style for the flag image */
+  .flag-image {
+ 
+    width: 70%;
+    max-width: 200px; /* Adjust the maximum width as needed */
+    margin-top: 30px;
+  }
+  .flag{
+    margin-left: 2em;
+  }
+  .flag1{
+    margin-left: 3em;
+  }
+  .flag2{
+    margin-left: 3em;
+  }

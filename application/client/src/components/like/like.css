@@ -1,0 +1,11 @@
+.likect{
+    margin-left: 0.2em;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 200;
+    font-family: 'roboto', sans-serif;
+}
+
+.likeSection{
+    margin-left: 1em;
+}

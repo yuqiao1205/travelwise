@@ -1,0 +1,40 @@
+.weather-container {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: rgb(189, 219, 226); */
+    /* background-image: url('../../img/bluesky.jpg'); */
+    background-color: rgba(37, 172, 202, 0.9);
+    background-size: cover;
+    border-radius: 10px;
+
+  }
+
+  .weather-wrapper {
+    /* background-color: rgba(167, 218, 230, 0.9); */
+    width: 100vw;
+  
+    /* height: 100vh; */
+  }
+
+  .weather-title{
+    /* margin: 2em; */
+    padding: 20px;
+    width: 100%;
+    border-bottom: solid 1.5px gray;
+    text-align: center;
+    font-family:  'roboto', sans-serif;
+    line-height: 10px;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+
+    
+    /* text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-top: 15px; */
+  }

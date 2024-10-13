@@ -1,0 +1,115 @@
+/* .cardImg {
+  width: 385px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 2px;
+  
+} */
+
+.custom-card {
+  height: 100% !important;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 19px;
+
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+
+.cardDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.cardDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+}
+
+.readmore{
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.cardButton{
+
+    cursor: pointer;
+    color: white;
+    background-color: rgb(232, 132, 50);
+    border: 1px solid rgb(234, 160, 86);
+    padding: 9px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+
+  }
+
+  .cardButton:hover {
+    background-color: rgb(4, 85, 105);
+  }
+
+
+.cardpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1px; */
+  margin-bottom: 10px;
+}
+
+.card-icons{
+  display: flex;
+  margin-top: 1em;
+  /* margin-bottom: 10px; */
+}
+
+
+.card-button{
+  margin-bottom: 1em;
+  color: white !important;
+
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.card-img {
+  width: 100%; /* Ensure the image takes up the full width of the container */
+  /* height: 200px;  */
+
+  /* width: 385px; */
+  height: 270px;
+  object-fit: cover; /* Ensure the image fills the specified dimensions */
+}

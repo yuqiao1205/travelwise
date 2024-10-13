@@ -1,0 +1,40 @@
+name: Node.js Test - API
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch: {} # Add this manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+
+     
+
+      - name: Install API Dependencies
+        run: npm install
+        working-directory: ./application/api
+
+      # prevent creation of pull request if tests fail
+      - name: Run API Tests
+        run: |
+          npm test
+          if [ $? -ne 0 ]; then
+            echo "Tests failed, exiting with a non-zero status"
+            exit 1
+          fi
+        working-directory: ./application/api
+
+      # - name: Run API Tests
+      #   run: npm test
+      #   working-directory: ./application/api
