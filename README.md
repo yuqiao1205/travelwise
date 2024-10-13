@@ -53,7 +53,7 @@ Make sure you have the following installed:
 1. Importing the Database
 
    1. Ensure MySQL Server is running on your local machine and client utilities are installed.
-   1. Import the database schema and initial content by using the database script file `scripts/db/dump20241012.sql`.
+   1. Import the database schema and initial content by using the database script file `scripts/db/dump20241013.sql`.
       1. You can use utility like MySQL CLI or MySQLWorkbench to run the database import script. It will create the travelwise schema if not present.
 
 1. Install dependencies for backend and frontend.
