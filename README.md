@@ -1,10 +1,34 @@
 # TravelWise
 
 - [TravelWise](#travelwise)
+  - [Development Docs](#development-docs)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
   - [Installation and Configuration](#installation-and-configuration)
   - [Running the Application](#running-the-application)
+
+## Development Docs
+
+**NOTE: Click the below links to read the development docs**
+
+1. [Project Plan](docs/travelwise_plan.pdf)
+   1. Executive Summary
+   1. Personas and User Stories
+   1. Data Definitions and Structure Summary
+   1. Initial list of functional requirements
+   1. List of non-functional requirements
+   1. Competitive analysis
+   1. Advantages Summary
+   1. High-level system requirements
+1. [MUST READ: Overall Design](docs/travelwise_design.pdf)
+   1. Data Definitions
+   1. Functional requirements
+   1. UI Mockups and UX Flow
+   1. High-level Architecture, Database Organization
+   1. High-Level UML Diagrams
+1. [Test Report](docs/tw_testing_report.pdf)
+   1. Test Cases
+   1. Test Coverage
 
 ## Getting Started
 
@@ -58,7 +82,7 @@ Make sure you have the following installed:
    X_RAPID_API_KEY=   # X Rapid API Key for Weather Feature
    YELP_API_KEY=      # Yelp API Key for Yelp search Feature
 
-   # Secret key for the authentication password encryption
+   # Secret key for the authentication password encryption, this is used in the initial database content.
    Secret_Key=c1b586dc616452c1ced1f6bb65af186c
    ```
 
