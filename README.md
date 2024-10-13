@@ -6,6 +6,7 @@
     - [Prerequisites](#prerequisites)
   - [Installation and Configuration](#installation-and-configuration)
   - [Running the Application](#running-the-application)
+  - [Additional Information](#additional-information)
 
 ## Development Docs
 
@@ -95,7 +96,7 @@ Make sure you have the following installed:
    npm start
    ```
 
-   - The backend will run on `http://localhost:8080`.
+   - The backend will run on `http://localhost:8800`.
 
 1. Start the frontend
 
@@ -109,3 +110,10 @@ Make sure you have the following installed:
    - The frontend will run on `http://localhost:3000` and you can access the TravelWise application at that URL.
 
 1. NOTE: You can use the [Caddy](https://caddyserver.com/) to expose the application to HTTPS.
+
+## Additional Information
+
+When you first run the application, to access all features such as commenting, liking, and following, please register before logging in. Alternatively, if you prefer to log in directly, input the username: yanpeng and password: sfuser.
+
+Thank you for checking out this project!
+I hope you find it useful and enjoyable to explore.
