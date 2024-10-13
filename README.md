@@ -95,13 +95,17 @@ Make sure you have the following installed:
    npm start
    ```
 
-   - The backend server will typically run on `http://localhost:8080`
+   - The backend will run on `http://localhost:8080`.
 
-2. Start the frontend
+1. Start the frontend
+
+   Open another terminal and run the command
 
    ```sh
    cd application/client
    npm start
    ```
 
-   - The frontend server will typically run on `http://localhost:3000`
+   - The frontend will run on `http://localhost:3000` and you can access the TravelWise application at that URL.
+
+1. NOTE: You can use the [Caddy](https://caddyserver.com/) to expose the application to HTTPS.
